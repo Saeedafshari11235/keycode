@@ -4,7 +4,6 @@ body{
     width: 99%;
     height: 97.6vh;
     font-family: 'Roboto', sans-serif;
-    border: 1px red solid;
     display: flex;
     flex-direction: column;
 }
@@ -28,4 +27,16 @@ footer{
 footer div a{
     text-decoration: none;
     color: red;
+}
+main div.start{
+    text-align: center;
+    position: absolute;
+    width: 99vw;
+    top: 50%;
+}
+main div.start span{
+    padding: 1rem;
+    font-size: 2rem;
+    box-shadow: 0rem 0rem 1rem 1rem rgb(246, 246, 246);
+    color: rgb(86, 86, 86);
 }
