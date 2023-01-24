@@ -88,3 +88,10 @@ div.code{
     font-size: 17rem;
     margin-top: 5rem;
 }
+.dark{
+    background-color: rgb(37, 37, 37);
+    color: #fff;
+}
+.dark #title{
+    background-color: rgb(95, 174, 183);
+}
