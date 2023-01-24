@@ -33,10 +33,14 @@ main div.start{
     position: absolute;
     width: 99vw;
     top: 50%;
+    display: none;
 }
 main div.start span{
     padding: 1rem;
     font-size: 2rem;
     box-shadow: 0rem 0rem 1rem 1rem rgb(246, 246, 246);
     color: rgb(86, 86, 86);
+}
+.none{
+    display: none;
 }
