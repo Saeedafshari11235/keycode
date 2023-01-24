@@ -33,7 +33,6 @@ main div.start{
     position: absolute;
     width: 99vw;
     top: 50%;
-    display: none;
 }
 main div.start span{
     padding: 1rem;
@@ -45,7 +44,7 @@ main div.start span{
     display: none;
 }
 main main{
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     flex-direction: column;
