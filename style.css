@@ -61,6 +61,11 @@ container>div{
     width: 20rem;
     border-radius: 0.25rem;
     box-shadow: 0rem 1rem 1rem 1rem rgb(246, 246, 246);
+    transition: 0.3s;
+}
+container>div:hover{
+    box-shadow: 0rem 1rem 2rem 1rem rgb(233, 233, 233);
+    transform: translateY(-1rem);
 }
 div.title{
     background-color: rgb(131, 243, 255);
@@ -71,4 +76,8 @@ div.title{
 div.value{
     position: relative;
     top: 1rem;
+}
+div.code{
+    font-size: 17rem;
+    margin-top: 5rem;
 }
